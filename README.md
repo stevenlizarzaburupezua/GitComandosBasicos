@@ -191,7 +191,7 @@ La forma más común es escribir git commit, pero como bien mencionamos es recom
   
 ![image](https://user-images.githubusercontent.com/89370556/164999232-ba669775-3fa3-43e6-a10d-11b1f7f0698f.png)
 
-Como se puede ver en la imagen, el mensaje del commit es “Commit para el blog de Steven Lizarzaburu Pezúa” . No olvides que cualquier archivo que hayas creado, modificado o eliminado y que no hayas hecho el respectivo git add previamente, dichos archivos no serán guardados con el comando git commit, solo se mantendrán en el disco local, por ello siempre es recomendable ejecutar un git status previo al git commit. Si ejecutamos nuevamente el comando git status, podremos observar que que nos muestra el siguiente mensaje:
+Como se puede ver en la imagen, el mensaje del commit es “Commit para el blog de Steven Lizarzaburu Pezúa” . No olvides que cualquier archivo que hayas creado, modificado o eliminado y que no hayas hecho el respectivo git add previamente, dichos archivos no serán guardados con el comando git commit, solo se mantendrán en el disco local, por ello siempre es recomendable ejecutar un git status previo al git commit. Si ejecutamos nuevamente el comando git status, podremos observar que la consola nos muestra el siguiente mensaje:
 
 “On branch master Your branch is ahead of ‘origin/master’ by 1 commit”
 
