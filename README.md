@@ -8,7 +8,6 @@ En pocas palabras, Git es un sistema de control de versiones. Git te permitirá 
 
 Git se ejecuta de manera local y por tal razón al momento de crear o modificar archivos se generará un historial en su computadora. Si en caso necesita que otros desarrolladores contribuyan con el aplicativo o software que está desarrollando y poder trabajar en paralelo, deberá subir el proyecto a una plataforma o servidor de alojamiento de código (como Github o Bitbucket).
 
-
 ## Configura tu nombre de usuario y tu correo electrónico con GIT CONFIG
 
 Si estas iniciando en un proyecto y te han solicitado que instales Git, antes de usarlo deberás configurarlo. El comando git config te permitirá especificar el nombre de usuario y el correo electrónico que se establecerán al momento de realizar tus commits.
@@ -20,7 +19,6 @@ Hay 3 maneras de poder conocer nuestro correo electrónico y el nombre de usuari
 1. Por medio del comando git config.
 2. El comando git config --list  te detallará todas las propiedades que Git ha configurado.
 3. A través del archivo de configuración .gitconfig.
-
 
 #### 1. Por medio del comando git config
 
@@ -152,7 +150,7 @@ Si escribimos el comando git add . ocurrirá lo siguiente:
 
 ![image](https://user-images.githubusercontent.com/89370556/164999040-2dff982d-142a-4724-b843-ab3459127d25.png)
 
-Si escribimos git status nos mostrará todos los archivos que podrán ser incluidos en nuestro siguiente commit.
+Si escribimos git status nos mostrará todos los archivos que podrán ser incluidos en nuestro siguiente commit
 
 ![image](https://user-images.githubusercontent.com/89370556/164999046-d816db3b-5c4f-4326-acb5-4c4ae1fa98ca.png)
 
